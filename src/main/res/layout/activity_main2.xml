@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.findelgato.test.MainActivity"
+    android:background="#cc7e00"
+    style="@android:style/Widget.DeviceDefault.ListView.DropDown">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="French"
+        android:id="@+id/button"
+        android:background="#40cbbd"
+        android:textColor="#070707"
+        android:textSize="18dp"
+        android:minHeight="64dp"
+        android:minWidth="144dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/button3"
+        android:layout_marginBottom="45dp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Japanese"
+        android:id="@+id/button2"
+        android:minHeight="64dp"
+        android:minWidth="144dp"
+        android:background="#40cbbd"
+        android:textSize="18dp"
+        android:textColor="#080807"
+        android:layout_marginTop="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/button3"
+        android:layout_marginStart="62dp"
+        android:allowUndo="true"
+        android:typeface="normal"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mandarin"
+        android:id="@+id/button3"
+        android:textSize="18dp"
+        android:textColor="#0a0909"
+        android:minHeight="64dp"
+        android:minWidth="144dp"
+        android:background="#40cbbd"
+        android:layout_alignTop="@+id/button2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="108dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spanish"
+        android:id="@+id/button4"
+        android:background="#40cbbd"
+        android:textColor="#090909"
+        android:textSize="18dp"
+        android:minHeight="64dp"
+        android:minWidth="144dp"
+        android:layout_alignBottom="@+id/button"
+        android:layout_alignEnd="@+id/button2"
+        android:textStyle="bold" />
+
+</RelativeLayout>
